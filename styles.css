@@ -1,7 +1,15 @@
-#footer {
-    background-color: gray;
-}
-
 #portrait {
     border-radius: 100%;
+}
+
+#rightcol {
+    text-align: center;
+}
+
+#linksbar {
+    list-style-type: none;
+}
+
+#footer {
+    background-color: whitesmoke;
 }
