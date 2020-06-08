@@ -1,14 +1,21 @@
 header {
     text-align: right;
-    padding: 1rem;
+    padding: 1rem 5rem 1rem 1rem;
 }
 
 p {
     margin-bottom: 0;
 }
 
+i {
+    margin-left: 1rem;
+    margin-right: 0.25rem;
+}
+
 #portrait {
     border-radius: 100%;
+    margin: 1.5rem;
+    max-width: 70%;
 }
 
 #rightcol {
@@ -27,8 +34,15 @@ p {
 
 .bio-section {
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 .workexp-section, .projects-section, .other-section {
     margin-top: 3rem;
+    padding: 1rem;
+}
+
+.links {
+    text-align: left;
+    padding-left: 2rem;
 }
