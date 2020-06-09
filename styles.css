@@ -15,7 +15,13 @@ i {
 #portrait {
     border-radius: 100%;
     margin: 1.5rem;
-    max-width: 70%;
+    max-width: 60%;
+}
+
+@media screen and (max-width: 575px) {
+    #portrait {
+      max-width: 30%;
+    }
 }
 
 #rightcol {
