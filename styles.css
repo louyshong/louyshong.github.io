@@ -26,6 +26,13 @@ i {
 
 #rightcol {
     text-align: center;
+    opacity: 0.85;
+    transition: opacity 250ms 70ms;
+}
+
+#rightcol:hover {
+    opacity: 1;
+    transition: opacity 250ms 70ms;
 }
 
 #linksbar {
