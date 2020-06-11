@@ -24,13 +24,13 @@ i {
     }
 }
 
-#rightcol {
+#leftcol {
     text-align: center;
     opacity: 0.85;
     transition: opacity 250ms 70ms;
 }
 
-#rightcol:hover {
+#leftcol:hover {
     opacity: 1;
     transition: opacity 250ms 70ms;
 }
@@ -58,4 +58,13 @@ i {
 .links {
     text-align: left;
     padding-left: 2rem;
+}
+
+#leaf {
+    max-width: 10%;
+    max-height: 10%;;
+}
+
+#rightcol {
+
 }
