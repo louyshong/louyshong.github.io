@@ -19,12 +19,6 @@ i {
     max-width: 60%;
 }
 
-@media screen and (max-width: 575px) {
-    #portrait {
-      max-width: 30%;
-    }
-}
-
 #leftcol {
     text-align: center;
     opacity: 0.85;
@@ -34,10 +28,6 @@ i {
 #leftcol:hover {
     opacity: 1;
     transition: opacity 250ms 70ms;
-}
-
-#linksbar {
-    list-style-type: none;
 }
 
 #footer {
@@ -69,4 +59,14 @@ i {
 
 #rightcol {
     overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    #portrait {
+      max-width: 30%;
+    }
+
+    #leftcol {
+        text-align: center;
+    }
 }
