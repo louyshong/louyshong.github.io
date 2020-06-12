@@ -5,6 +5,7 @@ header {
 
 p {
     margin-bottom: 0;
+    font-size: large;
 }
 
 i {
@@ -41,7 +42,6 @@ i {
 
 #footer {
     background-color: whitesmoke;
-    margin-top: 2rem;
     padding: 2rem;
 }
 
@@ -62,9 +62,11 @@ i {
 
 #leaf {
     max-width: 10%;
-    max-height: 10%;;
+    max-height: 10%;
+    position: relative;
+    left: 100%;
 }
 
 #rightcol {
-
+    overflow: hidden;
 }
