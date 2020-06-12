@@ -19,7 +19,8 @@ tween.add(
 
 const controller = new ScrollMagic.Controller();
 
-var hook = 0.2; 
+var hook = $("#rightcol").height() / 9257; 
+console.log($("#rightcol").height());
 
 const scene = new ScrollMagic.Scene(
     {triggerElement: "#rightcol",
