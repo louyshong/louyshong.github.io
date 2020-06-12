@@ -19,7 +19,7 @@ tween.add(
 
 const controller = new ScrollMagic.Controller();
 
-var hook = 0.15; 
+var hook = 0.2; 
 
 const scene = new ScrollMagic.Scene(
     {triggerElement: "#rightcol",
