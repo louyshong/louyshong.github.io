@@ -6,7 +6,7 @@ console.log(month)
 var list = document.querySelectorAll(".highlight");
 
 if (month === 12 || month === 1 ||  month === 2) {
-    document.getElementById("leaf").src = "snowflake.png";
+    document.getElementById("leaf").src = "img/snowflake.png";
 
     for (var i = 0; i < list.length; i++) {
         list[i].classList.add("winter-highlight")
@@ -14,7 +14,7 @@ if (month === 12 || month === 1 ||  month === 2) {
 }
 
 if (month === 3 || month === 4 || month === 5) {
-    document.getElementById("leaf").src = "butterfly.png";
+    document.getElementById("leaf").src = "img/butterfly.png";
 
     for (var i = 0; i < list.length; i++) {
         list[i].classList.add("spring-highlight")
@@ -22,7 +22,7 @@ if (month === 3 || month === 4 || month === 5) {
 }
 
 if (month === 6 || month === 7 || month === 8) {
-    document.getElementById("leaf").src = "summer-leaf.png";
+    document.getElementById("leaf").src = "img/summer-leaf.png";
 
     for (var i = 0; i < list.length; i++) {
         list[i].classList.add("summer-highlight")
@@ -30,7 +30,7 @@ if (month === 6 || month === 7 || month === 8) {
 }
 
 if (month === 9 || month === 10 || month === 11) {
-    document.getElementById("leaf").src = "autumn-leaf.png";
+    document.getElementById("leaf").src = "img/autumn-leaf.png";
 
     for (var i = 0; i < list.length; i++) {
         list[i].classList.add("autumn-highlight")
