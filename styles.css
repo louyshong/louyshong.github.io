@@ -1,7 +1,20 @@
+/******* Header *******/
+
+#footer {
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.credits {
+    font-size: xx-small;
+}
+
 header {
     text-align: right;
     padding: 1rem 5rem 1rem 1rem;
 }
+
+/******* Left column *******/
 
 p {
     margin-bottom: 0;
@@ -11,6 +24,11 @@ p {
 i {
     margin-left: 1rem;
     margin-right: 0.25rem;
+}
+
+.links {
+    text-align: left;
+    padding-left: 2rem;
 }
 
 #portrait {
@@ -30,14 +48,7 @@ i {
     transition: opacity 250ms 70ms;
 }
 
-#footer {
-    background-color: whitesmoke;
-    padding: 2rem;
-}
-
-.credits {
-    font-size: xx-small;
-}
+/******* Main column *******/
 
 .bio-section {
     margin-top: 1rem;
@@ -49,10 +60,7 @@ i {
     padding: 1rem;
 }
 
-.links {
-    text-align: left;
-    padding-left: 2rem;
-}
+/******* Right column *******/
 
 #leaf {
     max-width: 8%;
@@ -64,6 +72,19 @@ i {
 #rightcol {
     overflow: hidden;
 }
+
+/******* Footer *******/
+
+#footer {
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.credits {
+    font-size: xx-small;
+}
+
+/******* Media queries *******/
 
 @media screen and (max-width: 768px) {
     #portrait {
