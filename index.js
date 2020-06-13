@@ -1,6 +1,6 @@
 
 var today = new Date() 
-var month = today.getMonth() - 4
+var month = today.getMonth() + 1 
 console.log(month)
 
 var list = document.querySelectorAll(".highlight");
