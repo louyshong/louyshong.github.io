@@ -35,6 +35,10 @@ i {
     padding: 2rem;
 }
 
+.credits {
+    font-size: xx-small;
+}
+
 .bio-section {
     margin-top: 1rem;
     padding: 1rem;
