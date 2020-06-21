@@ -1,14 +1,5 @@
 /******* Header *******/
 
-#footer {
-    background-color: whitesmoke;
-    padding: 2rem;
-}
-
-.credits {
-    font-size: xx-small;
-}
-
 header {
     text-align: right;
     padding: 1rem 5rem 1rem 1rem;
