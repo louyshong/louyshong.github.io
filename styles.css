@@ -75,6 +75,39 @@ i {
     font-size: xx-small;
 }
 
+/******* Bootstrap extensions *******/
+.btn-outline-brown {
+    color: saddlebrown;
+    border-color: saddlebrown;
+}
+  
+.btn-outline-brown:hover {
+color: #fff;
+background-color: saddlebrown;
+border-color: saddlebrown;
+}
+
+.btn-outline-brown:focus, .btn-outline-brown.focus {
+box-shadow: 0 0 0 0.2rem rgba(180, 104, 3, 0.5);
+}
+
+.btn-outline-brown.disabled, .btn-outline-brown:disabled {
+color: saddlebrown;
+background-color: transparent;
+}
+
+.btn-outline-brown:not(:disabled):not(.disabled):active, .btn-outline-brown:not(:disabled):not(.disabled).active,
+.show > .btn-outline-brown.dropdown-toggle {
+color: #fff;
+background-color: saddlebrown;
+border-color: saddlebrown;
+}
+
+.btn-outline-brown:not(:disabled):not(.disabled):active:focus, .btn-outline-brown:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-brown.dropdown-toggle:focus {
+box-shadow: 0 0 0 0.2rem rgba(180, 104, 3, 0.5);
+}
+
 /******* Media queries *******/
 
 @media screen and (max-width: 768px) {
