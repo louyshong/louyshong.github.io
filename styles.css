@@ -11,6 +11,10 @@ p {
     margin-bottom: 0;
 }
 
+.uni {
+    margin-bottom: 4rem;
+}
+
 i {
     margin-left: 1rem;
     margin-right: 0.25rem;
@@ -40,14 +44,26 @@ i {
 
 /******* Main column *******/
 
+#maincol {
+    padding: 0;
+}
+
 .bio-section {
     margin-top: 1rem;
     padding: 1rem;
 }
 
 .workexp-section, .projects-section, .other-section {
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem;
+}
+
+.company {
+    color: inherit;
+}
+
+.dateloc {
+    color: gray;
 }
 
 /******* Right column *******/
