@@ -66,6 +66,10 @@ i {
     color: gray;
 }
 
+li {
+    padding-top: 0.75rem;
+}
+
 /******* Right column *******/
 
 #leaf {
