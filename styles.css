@@ -33,12 +33,12 @@ i {
 
 #leftcol {
     text-align: center;
-    opacity: 0.9;
+    opacity: 1;
     transition: opacity 250ms 70ms;
 }
 
 #leftcol:hover {
-    opacity: 1;
+    opacity: 0.95;
     transition: opacity 250ms 70ms;
 }
 
